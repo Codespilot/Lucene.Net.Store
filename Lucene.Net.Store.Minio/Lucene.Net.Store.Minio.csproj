@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Lucene.Net.Store.Minio</AssemblyName>
+    <RootNamespace>Lucene.Net.Store.Minio</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lucene.Net" Version="4.8.0-beta00013" />
+    <PackageReference Include="Minio" Version="3.1.13" />
+  </ItemGroup>
+
+  <Import Project="..\Lucene.Net.Store.Shared\Lucene.Net.Store.Shared.projitems" Label="Shared" />
+
+</Project>
